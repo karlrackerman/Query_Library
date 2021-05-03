@@ -6,7 +6,7 @@ WITH RECURSIVE
 get_ancestors(sophosPID, level, startTime, cmdLine, procName,    parentSophosPID, sha256, sid) AS (
     SELECT sophosPID, 0, processStartTime, cmdLine, processName, parentSophosPID, sha256, sid
     FROM sophos_process_journal
-    WHERE sophosPID = '$$sophosPID$$' AND eventtype = 0
+    WHERE sophosPID = '7768:132634072279598483' AND eventtype = 0
 
     UNION ALL
 
@@ -31,7 +31,7 @@ get_children(sophosPID, level, startTime, cmdLine, procName, targetsophosPID, sh
     SELECT p.sophosPID, 0, p.processStartTime, p.cmdLine, p.processName,spa.targetsophosPID, p.sha256, p.sid
     FROM sophos_process_journal p
     LEFT JOIN sophos_process_activity spa ON spa.sophosPID = p.sophosPID AND subject = 'Process' 
-    WHERE p.sophosPID = '$$sophosPID$$'
+    WHERE p.sophosPID = '7768:132634072279598483'
 
     UNION ALL
 
