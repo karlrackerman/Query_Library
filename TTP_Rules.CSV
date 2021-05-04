@@ -320,7 +320,6 @@ cmd_line,0,T1105,   ,%,%set-content%-path% -value%pay%
 cmd_line,0,T1105,   ,%,%start-process%socket%
 cmd_line,0,T1105,   ,certutil.exe,%verifyctl%-f%
 cmd_line,0,T1105,   ,msiexec.exe,%powershellcore%
-cmd_line,0,T1108,   ,%,%sleep%
 cmd_line,0,T1110,.001,%,%foreach%password%
 cmd_line,0,T1110,.003,%,%ldap%foreach%password%
 cmd_line,0,T1110,.003,%,%passwordspray%
@@ -399,6 +398,7 @@ cmd_line,0,T1497,.001,%,%get-wmiobject%win32_computersystem%model
 cmd_line,0,T1497,.001,%,%procexp%get-process%
 cmd_line,0,T1497,.001,%,%security%detected%
 cmd_line,0,T1497,.001,%,%security%found%
+cmd_line,0,T1497,.003,%,%sleep%
 cmd_line,0,T1505,.002,%,%install-transportagent%
 cmd_line,0,T1505,.002,%,%microsoft.exchange.security.interop.dll%
 cmd_line,0,T1518,   ,%,%echo%get-uac%
