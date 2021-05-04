@@ -1,0 +1,619 @@
+0,T1002,   ,%,%compress-archive%
+0,T1003,   ,%,%creds.dmp%
+0,T1003,   ,%,%download%powersploit%
+0,T1003,   ,%,%exfiltration%
+0,T1003,   ,%,%get-netcomputer%
+0,T1003,   ,%,%hklm%sam%
+0,T1003,   ,%,%hklm%security%
+0,T1003,   ,%,%hklm%system%
+0,T1003,   ,%,%invoke-mimikatz%
+0,T1003,   ,%,%nppspy%
+0,T1003,.001,%,%dumpcreds%
+0,T1003,.001,%,%ma lsass.exe%
+0,T1003,.001,%,%minidump%lsass%
+0,T1003,.001,%,%procdump%lsass%
+0,T1003,.001,rundll32.exe,%comsvcs.dll%
+0,T1003,.002,%,%reg query hklm%f password%t reg_sz%
+0,T1003,.002,%,%webrequest%empire%dump%
+0,T1003,.002,reg.exe,%query hklm%f password%t reg_sz%
+0,T1005,   ,%,%get-childitem c:%users -recurse -include%
+0,T1006,   ,%,%io.filestream%format-hex%
+0,T1007,   ,%,%get-service%
+0,T1010,   ,%,%get-process%mainwindowtitle%shell.application%
+0,T1012,   ,%,%get-itemproperty%hklm:%windows%currentversion%
+0,T1016,   ,%,%-c%ipconfig%
+0,T1016,   ,%,%-find%
+0,T1016,   ,%,%foreach%port%
+0,T1016,   ,%,%nbtstat -n%
+0,T1016,   ,%,%ping%
+0,T1016,   ,%,%-scan%
+0,T1016,   ,%,%wifi.ps1 -pref%
+0,T1016,   ,%,%wifi.ps1 -scan%
+0,T1016,   ,ipconfig.exe,%
+0,T1016,   ,nbstat.exe,%-n%
+0,T1018,   ,%,%arp -a%
+0,T1018,   ,%,%get-domaincomputer%
+0,T1018,   ,%,%get-netcomputer%
+0,T1018,   ,%,%ipconfig%findstr%
+0,T1018,   ,%,%nbtstat -a #{remote.host.ip}%
+0,T1018,   ,%,%nltest%dclist%
+0,T1018,   ,%,%nltest%dclist%
+0,T1018,   ,%,%nltest%dsgetdc%
+0,T1018,   ,%,%nslookup #{remote.host.ip}%
+0,T1018,   ,%,%nslookup%mail%
+0,T1018,   ,%,%powerview.ps1%get-domaincomputer%
+0,T1018,   ,arp.exe,%-a%
+0,T1018,   ,nbstat.exe,%remote.host.ip%
+0,T1018,   ,nltest%,%dsgetdc%
+0,T1018,   ,nltest.exe,%dclist%
+0,T1018,   ,nltest.exe,%dclist%
+0,T1018,   ,nslookup.exe,%mail%
+0,T1018,   ,nslookup.exe,%remote.host.ip%
+0,T1020,   ,%,%application%octet-stream%
+0,T1021,.002,%,%net use%/user:%n%
+0,T1021,.002,%,%new-psdrive%target%
+0,T1021,.002,net.exe,%use%/user:%n%
+0,T1021,.003,%,%createinstance%executeshellcommand%
+0,T1021,.003,%,%gettypefromprogid%executeshellcommand%
+0,T1021,.006,%,%enable-psremoting%
+0,T1021,.006,%,%evil-winrm%
+0,T1021,.006,%,%evil-winrm%admin%-p%
+0,T1021,.006,%,%invoke-command%computername%script%
+0,T1027,   ,%,%base64%
+0,T1027,   ,%,%-ec%
+0,T1027,   ,%,%encode%
+0,T1027,   ,%,%set-itemproperty%hkcu%iex%
+0,T1027,   ,%,%set-itemproperty%hklm%iex%
+0,T1027,   ,%,%unicode%
+0,T1027,.004,%,%invoke-expressiion%compile%
+0,T1031,   ,%,%get-service -name%stop-service%copy-item -path%
+0,T1033,   ,%,%$env:username%
+0,T1033,   ,%,%get-netuser -admincount%
+0,T1033,   ,%,%get-netuser -spn%
+0,T1033,   ,%,%get-netuser%
+0,T1033,   ,%,%userhunter%stealth%
+0,T1033,   ,%,%whoami%
+0,T1036,.003,%,%copy%windows%system%
+0,T1036,.003,%,%copy%windows%wow%
+0,T1036,.003,%,%start-process%exe%.id%
+0,T1037,.001,%,%reg%add%environment%userinitmprlogonscript%
+0,T1037,.001,reg.exe,%add%environment%userinitmprlogonscript%
+0,T1037,.002,%,%touch%private%prefrences%loginwindow.plist%
+0,T1037,.002,%,%write%loginhook%
+0,T1037,.002,touch,%private%prefrences%loginwindow.plist%
+0,T1037,.004,%,%>>%rc.common%
+0,T1037,.005,%,%library%startupitems%
+0,T1037,.005,%,%startupparameters%plist%
+0,T1037,.005,%,%startupparameters%plist%
+0,T1040,   ,%,%new-neteventsession -name%-capturemode%
+0,T1040,   ,%,%pcap%tcp%
+0,T1041,   ,%,%file%upload%
+0,T1046,   ,%,%get-netipconfiguration%
+0,T1046,   ,%,%nmap -sv -p
+0,T1046,   ,%,%nmap%
+0,T1046,   ,%,%scan%ports%
+0,T1046,   ,nmap.exe,%
+0,T1046,   ,nmap.exe,%sv -p
+0,T1047,   ,%,%wmic%
+0,T1047,   ,%,%wmic%node:%user:%password%process call create%
+0,T1047,   ,%,%wmic%process%get%
+0,T1047,   ,%,wmic%node:%user:%password:%process call create%
+0,T1047,   ,wmic.exe,%node%password%process call create%
+0,T1047,   ,wmic.exe,%node:%user:%password%process call create%
+0,T1047,   ,wmic.exe,%process get%executablepath%name%processid%parentprocessid%
+0,T1048,.003,%,%ping.send(%)%
+0,T1048,.003,%,%send%.%.%.%
+0,T1048,.003,%,%system.net.networkinginformation.ping%
+0,T1048,.003,%,%uri%method%post%body%
+0,T1049,   ,%,%find-%share%
+0,T1049,   ,%,%get-nettcpconnection%
+0,T1049,   ,%,%invoke-%scanner%
+0,T1049,   ,%,%invoke-kerber%
+0,T1049,   ,%,%netstat -ano%get-nettcpconnection%
+0,T1049,   ,netstat.exe,%-ano%
+0,T1050,   ,%,%new-service%
+0,T1050,   ,%,%sc%create%service%
+0,T1050,   ,sc.exe,%create service%
+0,T1053,.001,%,% at now%
+0,T1053,.001,%,%at atd%
+0,T1053,.001,%,%which at%
+0,T1053,.001,%,%which atd%
+0,T1053,.001,at,%
+0,T1053,.002,%,at%
+0,T1053,.002,at.exe,%
+0,T1053,.003,%,%cron.daily%
+0,T1053,.003,%,%cron.hourly%
+0,T1053,.003,%,%cron.monthly%
+0,T1053,.003,%,%cron.weekly%
+0,T1053,.003,%,%crontab -l%
+0,T1053,.003,%,%crontab%
+0,T1053,.003,%,%crontabs%
+0,T1053,.004,%,%cp%etc%emond.d%rules%
+0,T1053,.004,%,%launchd%
+0,T1053,.004,launchd,%
+0,T1053,.005,%,%new-scheduledtask%
+0,T1053,.005,%,%new-scheduledtask%action%principal%trigger%
+0,T1053,.005,%,%register-scheduledtask%
+0,T1053,.005,%,%schtasks%
+0,T1053,.005,%,%schtasks%create%s%ru%rp%
+0,T1053,.005,%,%schtasks%create%sc%once%
+0,T1053,.005,%,%schtasks%create%tn%onlogon%
+0,T1053,.005,%,%schtasks%create%tn%onstart%
+0,T1053,.005,at.exe,%
+0,T1053,.005,schtasks.exe,%
+0,T1053,.006,%,%systemd%timer%
+0,T1055,   ,%,%lsadump::lsa%inject%
+0,T1055,.001,%,%csc.exe%
+0,T1055,.001,%,%mavinject%injectrunning%
+0,T1055,.001,%,%odbcconf.exe%s%a%
+0,T1055,.001,%,%start-process%passthru%.id%
+0,T1055,.001,csc.exe,%
+0,T1055,.001,cvtres.exe,%tmp%
+0,T1055,.001,mavinject.exe,%
+0,T1055,.001,mavinject.exe,%injectrunning%
+0,T1055,.001,odbcconf.exe,%s%a%
+0,T1055,.002,%,%get-process%hollow%
+0,T1055,.002,%,%hollow%
+0,T1055,.002,%,%invoke-reflectivepeinjection.ps1%
+0,T1055,.002,%,%mavinject.exe%
+0,T1055,.002,%,%new-object%comobject%application%
+0,T1055,.002,mavinject.exe,%
+0,T1055,.004,%,%exe_binary%
+0,T1055,.004,%,%queueuserapc%
+0,T1056,.002,%,%promptforcredential%
+0,T1057,   ,%,%get-process >>%
+0,T1057,   ,%,%get-process%
+0,T1057,   ,%,%get-process%lsass%
+0,T1057,   ,%,%gwmi win32_process%
+0,T1057,   ,%,%owner%%get-process%
+0,T1057,   ,%,%owner%user%get-process%
+0,T1057,   ,%,%processname%-e%lsass%
+0,T1057,   ,%,%pslist.exe%
+0,T1057,   ,%,%tasklist%m%
+0,T1057,   ,pslist.exe,%
+0,T1057,   ,tasklist.exe,%tasklist%m%
+0,T1057,   ,tasklist.exe%,%
+0,T1059,   ,%,%.exe -nonewwindow -passthru -credential%
+0,T1059,   ,%,%echo $(get-uac)%
+0,T1059,   ,%,%-nonewwindow -passthru -credential%
+0,T1059,   ,%,%server=%%url=%system.net.webclient%
+0,T1059,.001,%,%add-content%stream%
+0,T1059,.001,%,%copy-item%powershell%
+0,T1059,.001,%,%copy-item%powershell.exe%
+0,T1059,.001,%,%downloadstring%
+0,T1059,.001,%,%emulate-administrator-tasks.ps1%
+0,T1059,.001,%,%encodedcommandparam%
+0,T1059,.001,%,%-execute%
+0,T1059,.001,%,%get-itemproperty%registry%
+0,T1059,.001,%,%get-localuser%
+0,T1059,.001,%,%get-process -name%powershell%stop-process%
+0,T1059,.001,%,%get-process%ncat%
+0,T1059,.001,%,%get-process%ncat%
+0,T1059,.001,%,%get-wmiobject -class win32_operatingsystem%
+0,T1059,.001,%,%https%invoke%
+0,T1059,.001,%,%https:%bit.ly%
+0,T1059,.001,%,%iex%downloadstring%
+0,T1059,.001,%,%mimikatz%
+0,T1059,.001,%,%new.webclient%
+0,T1059,.001,%,%new-item%pstools%
+0,T1059,.001,%,%new-object%net.webclient%
+0,T1059,.001,%,%new-pssession%
+0,T1059,.001,%,%new-pssession%computername%
+0,T1059,.001,%,%out-athpowershell%
+0,T1059,.001,%,%powershell%iex%
+0,T1059,.001,%,%powershell%-version%2%command%
+0,T1059,.001,%,%powershell.exe -c%get-wmiobject -class win32_operatingsystem%
+0,T1059,.001,%,%reg.exe%add%base64%
+0,T1059,.001,%,%set-itemproperty -path hklm:%software%policies%microsoft%windows%powershell -name executionpolicy -value bypass%
+0,T1059,.001,%,%useencodedarguments%
+0,T1059,.001,%,%wifi.ps1 -off%
+0,T1059,.001,%,%wscript.shell%
+0,T1059,.001,cmd.exe,%net user%
+0,T1059,.001,cmd.exe,%netstat -ano%
+0,T1059,.001,cmd.exe,%whoami%
+0,T1059,.001,ncat.exe,%get-process%ncat%
+0,T1059,.001,powershell.exe,%iex%
+0,T1059,.001,powershell.exe,%-version 2%
+0,T1059,.001,reg.exe,%add%base64%
+0,T1059,.003,%,%start-process%.bat%
+0,T1059,.003,cmd.exe,%net user%
+0,T1059,.005,%,%cscript%vbs%
+0,T1059,.005,%,%cscript%vbs%>%
+0,T1059,.005,cscript.exe,%.vbs%
+0,T1059,.008,net.exe,%user%
+0,T1063,   ,%,%securitycenter%antivirusproduct%
+0,T1063,   ,%,%wmic%namespace%antivirusproduct%
+0,T1063,   ,wmic.exe,%antivirusproduct%
+0,T1063,   ,wmic.exe,%securitycenter%antivirusproduct%
+0,T1069,   ,%,%get-wmiobject -class win32_useraccount%
+0,T1069,   ,%,%gpresult%r%
+0,T1069,   ,%,%powerview.ps1%
+0,T1069,.001,gpresult.exe,%r%
+0,T1069,.002,%,%find%computeradmin%
+0,T1069,.002,%,%get-adprincipalgroupmembership%
+0,T1069,.002,%,%get-aduser%
+0,T1069,.002,%,%invoke-enumeratelocaladmin%
+0,T1070,.001,%,%clear%log%
+0,T1070,.003,%,%clear%history%
+0,T1070,.003,%,%remove-item%historysavepath%
+0,T1070,.003,%,%set-psreadlineoption%savenothing%
+0,T1070,.004,%,%delete%.log%
+0,T1070,.004,%,%remove-item%.log%
+0,T1070,.004,%,%remove-item%.pf%
+0,T1070,.004,%,%remove-item%recurse%
+0,T1070,.004,%,%timeout%del%
+0,T1070,.005,%,%remove-fileshare%
+0,T1070,.005,%,%remove-smbshare%
+0,T1070,.006,%,%get-childitem%creationtime%
+0,T1070,.006,%,%get-childitem%lastaccesstime%
+0,T1070,.006,%,%get-childitem%lastwritetime%
+0,T1070,.006,%,%import%timestomp%
+0,T1070,.006,%,%timestomp%dest%
+0,T1071,.001,%,%invoke-webrequest%
+0,T1071,.001,%,%server%http%
+0,T1071,.004,%,%dns%beacon%
+0,T1071,.004,%,%dns%domain%jitter%
+0,T1071,.004,%,%dns%query%
+0,T1072,   ,%,%powershell%-enc%
+0,T1074,   ,%,%copy-item%
+0,T1074,   ,%,%new-item%-path%-itemtype%
+0,T1074,.001,%,%copy-item%inbox%
+0,T1074,.001,%,%copy-item%password%
+0,T1074,.001,%,%copy-item%zip%
+0,T1074,.001,%,%invoke-webrequest%discovery.bat%
+0,T1074,.001,%,%new-item%directory%
+0,T1074,.004,%,%compress-archive%destinationpath%
+0,T1078,.001,%,%net localgroups%
+0,T1078,.001,%,%net user%
+0,T1078,.001,%,%reg add%terminal server%allowtsconnections%
+0,T1078,.001,%,%reg add%terminal server%denytsconnections%
+0,T1078,.001,net.exe,%localgroups%
+0,T1078,.001,net.exe,%user%
+0,T1078,.001,reg.exe,%add%terminal server%allowtsconnections%
+0,T1078,.001,reg.exe,%add%terminal server%denytsconnections%
+0,T1078,.003,%,%net localgroup%add%
+0,T1078,.003,%,%net user%add%
+0,T1078,.003,net.exe,%localgroup%add%
+0,T1078,.003,net.exe,%user%add%
+0,T1082,   ,%,%osversion.version%
+0,T1082,   ,%,%psversiontable%
+0,T1083,   ,%,%-c pwd%
+0,T1083,   ,%,%gci%recurse%
+0,T1083,   ,%,%get-childitem -path #{host.system.path}%
+0,T1083,   ,%,%get-children%recurse%
+0,T1083,   ,%,%ls%recurse%
+0,T1087,.001,%,%cmdkey.exe%list%
+0,T1087,.001,%,%get-children%users%
+0,T1087,.001,%,%get-localgroup%
+0,T1087,.001,%,%get-localgroupmember%
+0,T1087,.001,%,%get-localuser%
+0,T1087,.001,%,%get-wmiobject%win32_useraccount%
+0,T1087,.001,%,%net localgroup%
+0,T1087,.001,%,%net user%
+0,T1087,.001,%,%query user%
+0,T1087,.001,cmdkey.exe,%list%
+0,T1087,.001,net.exe,%localgroup%
+0,T1087,.001,net.exe,%user%
+0799-8799,t1087,.001,query%,%user%
+0,T1087,.001,quser%,%
+0,T1087,.002,%,%get-aduser -filter *%
+0,T1087,.002,%,%get-localgroupmember%users%
+0,T1087,.002,%,%invoke-expression%recon%
+0,T1087,.002,%,%net user #{domain.user.name}%domain%
+0,T1087,.002,%,%user%domain%
+0,T1087,.002,%,net user%domain
+0,T1087,.002,net.exe,%user%domain%
+0,T1087,.002,net.exe,%user.name%domain%
+0,T1090,   ,netsh.exe,%portproxy%
+0,T1090,   ,netsh.exe,%winhttp%set%proxy%
+0,T1090,.001,%,%proxy%127.0.0.1%
+0,T1098,   ,%,%set-localuser%
+0,T1105,   ,%,%certutil%verifyctl%move-item%destination%
+0,T1105,   ,%,%download%powershell%
+0,T1105,   ,%,%download%pstools%
+0,T1105,   ,%,%msiexec%powershellcore%
+0,T1105,   ,%,%new-object%webclient%
+0,T1105,   ,%,%new-pssession -computername%
+0,T1105,   ,%,%psexec%.exe%
+0,T1105,   ,%,%set-content%-path% -value%hacked%
+0,T1105,   ,%,%set-content%-path% -value%pay%
+0,T1105,   ,%,%start-process%socket%
+0,T1105,   ,certutil.exe,%verifyctl%-f%
+0,T1105,   ,msiexec.exe,%powershellcore%
+0,T1108,   ,%,%sleep%
+0,T1110,.001,%,%foreach%password%
+0699-8699,t1110,.003,%,%ldap%foreach%password%
+0599-8599,t1110,.003,%,%passwordspray%
+0,T1112,   ,%,%itemproperty%hklm%
+0,T1112,   ,%,%key=%zonemap%
+0,T1112,   ,%,%new-itemproperty%http%2%
+0,T1112,   ,%,%new-itemproperty%internet settings%name%value%
+0,T1112,   ,%,%set-executionpolicy%bypass%
+0,T1113,   ,%,%copyfromscreen%
+0,T1113,   ,%,%screenshot%
+0,T1113,   ,psr.exe,%output%
+0,T1114,.001,%,%get-inbox%mail%
+0,T1115,   ,%,%getclipboard%
+0,T1115,   ,%,%get-clipboard%
+0,T1119,   ,%,%get-childitem%
+0,T1119,   ,%,%get-process%
+0,T1119,   ,%,%get-service%
+0,T1119,   ,%,%new-item%recurse%
+0599-8599,t1120,   ,%,%get-wmiobject%win32_pnpentity%
+0,T1123,   ,%,%windowsaudiodevice-powershell-cmdlet%
+0,T1124,   ,%,%get-date -uformat%
+0,T1124,   ,%,%get-date%
+0,T1134,.001,%,%get-system%namedpipe%
+0,T1134,.001,%,%get-system%technique%token%
+0,T1134,.004,%,%getciminstance%win32_process%processid%
+0,T1134,.004,%,%ppid%spoof%
+0,T1134,.004,%,%start-athprocessunderspecificparent%
+0,T1134,.004,%,%start-athprocessunderspecificparent%
+0,T1135,   ,%,%get-smbshare%
+0,T1135,   ,%,%iex%iwr%
+0,T1135,   ,%,%net%view%localhost%
+0,T1135,   ,%,%smbshare%localhost%
+0,T1136,.001,%,%new-localuser%
+0,T1136,.002,%,%automation.pscredential%
+0,T1136,.002,%,%passwordnotrequired%
+0,T1136,.002,%,%samaccountname%password%
+0,T1201,   ,%,%net accounts%
+0,T1201,   ,net.exe,%accounts%
+0,T1204,.002,%,%.jse%script.exe%
+0,T1204,.002,%,%wscript.ext%jscript%jse
+0,T1217,   ,%,%user%bookmarks
+0,T1218,   ,%,%invoke%disable%
+0,T1218,.001,%,%invoke-athcompiledhelp%hhfilepath%
+0,T1218,.001,%,%invoke-athcompiledhelp%jscript%
+0,T1218,.001,hh.exe,%
+0,T1218,.001,rundll32.exe,%vnc%server%
+0,T1218,.004,%,%installutil%
+0,T1218,.005,%,%invoke%mshta.exe%
+0,T1218,.005,%,%invoke-athhtmlapplication%jscript%
+0,T1218,.005,%,%simulate%doubleclick%
+0,T1218,.005,jscript.exe,%inlineprotocolhandler%userundll32%
+0,T1218,.005,mshta.exe,%
+0,T1218,.008,%,%csc.exe%enterpriseservices.dll%regsvcs.exe%
+0,T1219,   ,%,%logmeinignition.msi%
+0,T1219,   ,%,%start-process%logmein%
+0,T1219,   ,%,%start-process%teamviewer%
+0,T1219,   ,%,%web-request%anydesk%
+0,T1219,   ,%,%web-request%teamviewer_setup.exe%
+0,T1219,   ,ammyy%admin.exe,%-connect%
+0,T1219,   ,teamviewer.exe,%assign%
+0,T1219,   ,tvnserver.exe,%-connect%
+0,T1219,   ,vncserver.exe,%-connect%
+0,T1219,   ,vncviewer.exe,%-proxy%
+0,T1482,   ,%,%get-addomain%
+0,T1482,   ,%,%get-adgroupmember%
+0,T1482,   ,%,%get-netforest%
+0,T1482,   ,%,%powerview%get-netdomain%
+0,T1485,   ,%,%foreach%delete%
+0,T1485,   ,%,%invoke-expression%sddelete.exe%
+0,T1490,   ,%,%shadowcopy%delete%
+0,T1491,   ,%,%invoke-memekatz%
+0,T1497,.001,%,%av%detected%
+0,T1497,.001,%,%av%found%
+0,T1497,.001,%,%get-process%procexp%
+0,T1497,.001,%,%get-wmiobject%win32_computersystem%model
+0,T1497,.001,%,%procexp%get-process%
+0,T1497,.001,%,%security%detected%
+0,T1497,.001,%,%security%found%
+0,T1505,.002,%,%install-transportagent%
+0,T1505,.002,%,%microsoft.exchange.security.interop.dll%
+0,T1518,   ,%,%echo%get-uac%
+0,T1518,   ,%,%get-itemproperty%hklm%uninstall%
+0,T1518,   ,%,%get-itemproperty%internet explorer%
+0,T1518,   ,%,%get-uac%
+0,T1518,.001,%,%get-process%virus%
+0,T1518,.001,%,%get-wmiobject%securitycenter%antivirusproduct%
+0,T1518,.001,%,%wmic%securitycenter%
+0,T1518,.001,%,%wmic%virus%
+0,T1543,.001,%,%launchagents%
+0,T1543,.001,%,%launchctl%load%launchagents%
+0,T1543,.001,launchctl,%load%launchagents%
+0,T1543,.002,%,%rm%systemd%
+0,T1543,.002,%,%systemctl%daemon-reload%
+0,T1543,.002,%,%systemctl%disable%
+0,T1543,.002,%,%systemctl%enable%
+0,T1543,.002,%,%systemctl%start%
+0,T1543,.002,%,%systemctl%stop%
+0,T1543,.002,%,%systemd%system%
+0,T1543,.003,%,%sc%config%binpath
+0,T1543,.004,%,%cp%launchdaemons%
+0,T1543,.004,%,%launchctl%load%launchdaemons%
+0,T1543,.004,launchctl,%load%launchdaemons%
+0,T1546,.001,%,%appcompatflags\custom%
+0,T1546,.001,%,%appcompatflags\installedsdb%
+0,T1546,.001,%,%apppatch\custom%
+0,T1546,.001,%,%apppatch\sysmain.sdb%
+0,T1546,.001,%,%assoc%=%
+0,T1546,.001,%,%copy-item%compatdatabase.sdb%
+0,T1546,.001,%,%hkey_classes_root%shell%
+0,T1546,.001,%,%new-itemproperty%installedsdb%
+0,T1546,.001,%,%sbinst.exe%
+0,T1546,.001,sbinst.exe,%
+0,T1546,.002,%,%control panel%desktop%
+0,T1546,.002,%,%control panel%desktop%%screensaveactive%
+0,T1546,.002,%,%control panel%desktop%%screensaveissecure%
+0,T1546,.002,%,%control panel%desktop%%screensavetimeout%
+0,T1546,.002,%,%image file execution options%debugger%
+0,T1546,.002,%,%image file execution options%globalflag%
+0,T1546,.002,%,%image file execution options%monitorprocess%
+0,T1546,.002,%,%image file execution options%reportingmode%
+0,T1546,.002,reg.exe,%system%enablelua%
+0,T1546,.003,%,%add-content%profile%v%
+0,T1546,.003,%,%add-content%v%start-process%
+0,T1546,.003,%,%get-wmiobject%commandlineeventconsumer%
+0,T1546,.003,%,%get-wmiobject%eventfilter%
+0,T1546,.003,%,%get-wmiobject%query%
+0,T1546,.003,%,%new-ciminstance%root%
+0,T1546,.003,%,%new-itemt%profile%
+0,T1546,.003,%,%set-content%profile%
+0,T1546,.004,%,%>>%.bashprofile%
+0,T1546,.004,%,%>>%.bashrc%
+0,T1546,.004,%,%emond.d%
+0,T1546,.004,%,%emondclients%
+0,T1546,.005,%,%trap%nohup%sh%
+0,T1546,.007,%,%netsh%add%helper%
+0,T1546,.007,netsh.exe,%add%helper%
+0,T1546,.008,%,%copy /y%sethc.exe%
+0,T1546,.008,%,%icacls%sethc.exe%grant%
+0,T1546,.008,%,%image file execution options%new-item%
+0,T1546,.008,%,%image file execution options%new-itemproperty%
+0,T1546,.008,%,%takeown%sethc.exe%
+0,T1546,.008,copy.exe,/y%sethc.exe%
+0,T1546,.008,icacls.exe,%sethc.exe%grant%
+0,T1546,.008,takeown.exe,%sethc.exe%
+0,T1546,.010,%,%reg.exe import%
+0,T1546,.010,reg.exe,%import%
+0,T1547,.001,%,%copy%programs%startup%
+0,T1547,.001,%,%cscript%programs%start menu%
+0,T1547,.001,%,%cscript%programs%startup%
+0,T1547,.001,%,%current_user%currentversion%policies%run%
+0,T1547,.001,%,%current_user%currentversion%run%
+0,T1547,.001,%,%current_user%currentversion%runserviceonce%
+0,T1547,.001,%,%current_user%currentversion%runservices%
+0,T1547,.001,%,%current_user%currentversion%shell folders%
+0,T1547,.001,%,%current_user%currentversion%windows%
+0,T1547,.001,%,%local_machine%currentversion%policies%run%
+0,T1547,.001,%,%local_machine%currentversion%run%
+0,T1547,.001,%,%local_machine%currentversion%runserviceonce%
+0,T1547,.001,%,%local_machine%currentversion%runservices%
+0,T1547,.001,%,%local_machine%currentversion%session manager%autochk%
+0,T1547,.001,%,%local_machine%currentversion%shell folders%
+0,T1547,.001,%,%local_machine%currentversion%userinit%
+0,T1547,.001,%,%local_machine%currentversion%winlogon%shell%
+0,T1547,.001,%,%monitor_dll%
+0,T1547,.001,%,%monitor_port%
+0,T1547,.001,%,%new-object%createshortcut%
+0,T1547,.001,%,%reg%add%hklm%system%monitor%
+0,T1547,.001,%,%windows%programs%startup%
+0,T1547,.001,reg.exe,%add%monitor%
+0,T1547,.004,%,%new-item%winlogon%notify%
+0,T1547,.004,%,%new-item%winlogon%notify%set-itemproperty%
+0,T1547,.004,%,%set-itemproperty%winlogon%notify%logon%
+0,T1547,.004,%,%set-itemproperty%winlogon%shell%force%
+0,T1547,.004,%,%set-itemproperty%winlogon%userinit%force%
+0,T1547,.004,%,%winlogon%userinit%
+0,T1547,.005,%,%system%control%lsa%security packages%
+0,T1547,.006,%,%insmod%
+0,T1547,.006,%,%kextload%
+0,T1547,.006,%,%kextunload%
+0,T1547,.007,%,%loginwindow%loginhook%
+0,T1547,.007,%,%loginwindow%plist%
+0,T1547,.009,%,%createshourcut%start menu%startup%
+0,T1547,.009,%,%url=c:%>>%
+0,T1547,.010,%,%kextunload%
+0,T1548,.001,%,%chmod%g+s%
+0,T1548,.001,%,%chmod%u+s%
+0,T1548,.001,%,%chown%root%
+0,T1548,.002,%,%akagi64.exe%
+0,T1548,.002,%,%bypass-uac%
+0,T1548,.002,%,%command%delegateexecute%
+0,T1548,.002,%,%mklink%
+0,T1548,.002,%,%new-item%hkcu%command%force%
+0,T1548,.002,%,%new-itemproperty%%hklm:software%enablelua%-value0%
+0,T1548,.002,%,%open%command%name%value%
+0,T1548,.002,%,%reg.exe%/v%/f%
+0,T1548,.002,%,%reg.exe%add%command%/ve%/d%
+0,T1548,.002,%,%reg.exe%add%system%enablelua%
+0,T1548,.002,%,%set-itemproperty%hkcu%command%name%
+0,T1548,.002,akagi64.exe,%
+0,T1548,.002,mklink.exe,%
+0,T1548,.002,reg.exe,%add%command%/ve%/d%
+0,T1548,.003,%,%cat%sudoers%
+0,T1548,.003,%,%sed%env_reset%timestamp%
+0,T1548,.003,%,%sed%etc%sudoers%
+0,T1548,.003,%,%sudo%-l%
+0,T1548,.003,%,%tty_tickets%>>%sudoers%
+0,T1548,.003,%,%vi%sudoers%
+0,T1548,.003,%,%visudo%sudoers%
+0,T1552,.001,%,%findstr%password%
+0,T1552,.001,findstr.exe,%password%
+0,T1552,.002,%,%reg%query%hkcu%password%
+0,T1552,.002,reg.exe,%query%hkcu%password%
+0,T1552,.004,%,%.asc%get-childitem%
+0,T1552,.004,%,%.cer%get-childitem%
+0,T1552,.004,%,%.crt%get-childitem%
+0,T1552,.004,%,%.gpg%get-childitem%
+0,T1552,.004,%,%.key%get-childitem%
+0,T1552,.004,%,%.p12%get-childitem%
+0,T1552,.004,%,%.p7b%get-childitem%
+0,T1552,.004,%,%.pem%get-childitem%
+0,T1552,.004,%,%.pfx%get-childitem%
+0,T1552,.004,%,%.pgp%get-childitem%
+0,T1552,.004,%,%.ppk%get-childitem%
+0,T1552,.006,%,%gpppassword%
+0,T1553,.004,%,%certutil%addstore%root%cer%
+0,T1553,.004,%,%import-cert%root%cer%
+0,T1553,.004,certutil%,%addstore%root%cer%
+0,T1555,   ,%,%iex%maldoc
+0,T1555,   ,%,%word%extract
+0,T1555,.003,%,%accesschk%accepteula
+0,T1555,.003,%,%chrome%login data%
+0,T1555,.003,accesschk.exe,%accepteula%
+0,T1558,.001,%,%golden.bat%
+0,T1558,.001,%,%goldenticket%
+0,T1558,.001,%,%replace%domain_sid%
+0,T1558,.001,%,%ticket%attack%
+0,T1558,.003,%,%keberoast%
+0,T1560,   ,%,%dir%recurse%compress-archive%
+0,T1560,.001,%,%compress-archive%
+0,T1562,.001,%,%add-mppreference%exclu%
+0,T1562,.001,%,%amsiinitfailed%setvalue%true%
+0,T1562,.001,%,%disable%antic%
+0,T1562,.001,%,%office%security%disableattachmentsinpv%
+0,T1562,.001,%,%office%security%disableinternetfilesinpv%
+0,T1562,.001,%,%office%security%disableunsafe%
+0,T1562,.001,%,%remove-item%amsi%provider%
+0,T1562,.001,%,%remove-service%mcafee%
+0,T1562,.001,%,%remove-service%sophos%
+0,T1562,.001,%,%remove-service%symantec%
+0,T1562,.001,%,%set%path%value%bypass%
+0,T1562,.001,%,%set-mppreference -disableintrusionpreventionsystem%
+0,T1562,.001,%,%set-mppreference -disableintrusionpreventionsystem%set-mppreference -disableioavprotection%set-mppreference -disablerealtimemonitoring%set-mppreference -disablescriptscanning%set-mppreference -enablecontrolledfolderaccess disabled%
+0,T1562,.001,%,%set-mppreference -disablerealtimemonitoring 1%
+0,T1562,.001,%,%set-mppreference -disablescriptscanning%
+0,T1562,.001,%,%set-mppreference -enablecontrolledfolderaccess disabled%
+0,T1562,.001,%,%sophos%uninstall%
+0,T1562,.001,%,%stop-service%mcafee%
+0,T1562,.001,%,%stop-service%sophos%
+0,T1562,.001,%,%stop-service%symantec%
+0,T1562,.001,%,%uninstall%crowdstrike%
+0,T1562,.001,%,%uninstall%sophos%
+0,T1562,.001,%,%uninstall%windowssensor%
+0,T1562,.001,%,%windowssensor%uninstall%
+0,T1562,.001,netsh.exe,%firewall%add%rule%
+0,T1562,.002,%,%appcmd%dontlog:true%
+0,T1562,.002,%,%invoke-phantom%
+0,T1562,.002,appcmd.exe,%dontlog:true%
+0,T1562,.004,%,%firewall%add%port%allow%profile%any%
+0,T1562,.004,%,%firewall%add%rule%allow%
+0,T1564,.003,%,%window%hidden%
+0,T1564,.004,%,%set-contet%stream%value%
+0,T1565,.001,%,%mv%.%.exe%
+0,T1565,.001,copy.exe,%.%.exe%
+0,T1566,.001,%,%iex%invoke-maldoc%
+0,T1571,   ,%,%:8080%
+0,T1571,   ,%,%:8081%
+0,T1571,   ,%,%port%808%
+0,T1574,.001,%,%copy%system32%dll%
+0,T1574,.001,%,%copy%system32%exe%
+0,T1574,.001,%,%copy%wow%dll%
+0,T1574,.001,%,%copy%wow%exe%
+0,T1574,.001,%,%get-acl%controlset%services
+0,T1574,.001,%,%reg.exe%add%system%controlset%services
+0,T1574,.001,reg.exe,%add%system%controlset%services
+0,T1574,.002,%,%cor_profiler%
+0,T1574,.002,%,%core_enable_profiling%1%
+0,T1574,.002,%,%new-item-property%cor_enable%
+0,T1574,.002,%,%new-item-property%cor_profile%
+0,T1574,.002,mmc.exe,%eventvwr.msc%
+0,T1574,.006,%,%dlopen%
+0,T1574,.006,%,%gcc -shared -fpic -o%
+0,T1574,.006,%,%ld.so.preload%
+0,T1574,.006,%,%ld_preload%
+0,T1574,.006,%,%mmap%
+0,T1574,.009,%,%binpath%
+0,T1574,.009,%,%sc%create%binpath%displayname%start%auto%
