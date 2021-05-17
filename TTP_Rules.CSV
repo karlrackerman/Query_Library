@@ -277,6 +277,8 @@ cmd_line,0,T1078,.003,net.exe,%localgroup%add%
 cmd_line,0,T1078,.003,net.exe,%user%add%
 cmd_line,0,T1082,   ,%,%osversion.version%
 cmd_line,0,T1082,   ,%,%psversiontable%
+cmd_line,0,T1082,   ,%,%get-culture%
+cmd_line,0,T1082,   ,%,%get-winuserlanguagelist%
 cmd_line,0,T1083,   ,%,%-c pwd%
 cmd_line,0,T1083,   ,%,%gci%recurse%
 cmd_line,0,T1083,   ,%,%get-childitem -path #{host.system.path}%
