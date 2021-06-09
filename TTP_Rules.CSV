@@ -27,9 +27,9 @@ cmd_line,0,T1016,   ,%,%foreach%port%
 cmd_line,0,T1016,   ,%,%nbtstat -n%
 cmd_line,0,T1016,   ,%,%-ping %
 cmd_line,0,T1016,   ,%,% ping %
-cmd_line,0,T1016,   ,%,%-scan%
+cmd_line,0,T1016,   ,%,%-scan %
 cmd_line,0,T1016,   ,%,%wifi.ps1 -pref%
-cmd_line,0,T1016,   ,%,%wifi.ps1 -scan%
+cmd_line,0,T1016,   ,%,%wifi.ps1 -scan %
 cmd_line,0,T1016,   ,ipconfig.exe,%
 cmd_line,0,T1016,   ,nbstat.exe,%-n%
 cmd_line,0,T1018,   ,%,%arp -a%
@@ -92,7 +92,8 @@ cmd_line,0,T1041,   ,%,%file%upload%
 cmd_line,0,T1046,   ,%,%get-netipconfiguration%
 cmd_line,0,T1046,   ,%,%nmap -sv -p
 cmd_line,0,T1046,   ,%,%nmap%
-cmd_line,0,T1046,   ,%,%scan%ports%
+cmd_line,0,T1046,   ,%,% scan%ports%
+cmd_line,0,T1046,   ,%,%-scan%ports%
 cmd_line,0,T1046,   ,nmap.exe,%
 cmd_line,0,T1046,   ,nmap.exe,%sv -p
 cmd_line,0,T1047,   ,%,%wmic%
