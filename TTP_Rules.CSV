@@ -25,7 +25,8 @@ cmd_line,0,T1016,   ,%,%-c%ipconfig%
 cmd_line,0,T1016,   ,%,%-find%
 cmd_line,0,T1016,   ,%,%foreach%port%
 cmd_line,0,T1016,   ,%,%nbtstat -n%
-cmd_line,0,T1016,   ,%,%ping%
+cmd_line,0,T1016,   ,%,%-ping %
+cmd_line,0,T1016,   ,%,% ping %
 cmd_line,0,T1016,   ,%,%-scan%
 cmd_line,0,T1016,   ,%,%wifi.ps1 -pref%
 cmd_line,0,T1016,   ,%,%wifi.ps1 -scan%
