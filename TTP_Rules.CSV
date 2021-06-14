@@ -120,7 +120,6 @@ cmd_line,0,T1053,.001,%,% at now%
 cmd_line,0,T1053,.001,%,%at atd%
 cmd_line,0,T1053,.001,%,%which at%
 cmd_line,0,T1053,.001,%,%which atd%
-cmd_line,0,T1053,.001,at,%
 cmd_line,0,T1053,.002,%,at%
 cmd_line,0,T1053,.002,at.exe,%
 cmd_line,0,T1053,.003,%,%cron.daily%
