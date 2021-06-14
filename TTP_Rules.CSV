@@ -1,4 +1,4 @@
-cmd_line,0,T1002,   ,%,%compress-archive%
+cmd_line,0,T1002,   ,%,%compress-archive%, A process is creating a compressed archive of files
 cmd_line,0,T1003,   ,%,%creds.dmp%
 cmd_line,0,T1003,   ,%,%download%powersploit%
 cmd_line,0,T1003,   ,%,%exfiltration%
