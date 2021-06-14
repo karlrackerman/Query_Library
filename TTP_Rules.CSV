@@ -61,7 +61,7 @@ cmd_line,0,T1021,.006,%,%evil-winrm%
 cmd_line,0,T1021,.006,%,%evil-winrm%admin%-p%
 cmd_line,0,T1021,.006,%,%invoke-command%computername%script%
 cmd_line,0,T1027,   ,%,%base64%
-cmd_line,0,T1027,   ,%,%-ec%
+cmd_line,0,T1027,   ,%,% -ec%
 cmd_line,0,T1027,   ,%,%encode%
 cmd_line,0,T1027,   ,%,%set-itemproperty%hkcu%iex%
 cmd_line,0,T1027,   ,%,%set-itemproperty%hklm%iex%
