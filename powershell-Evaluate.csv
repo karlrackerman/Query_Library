@@ -1,0 +1,329 @@
+﻿cmdline,0,T1059,.001,%,%Get-ChildItem%,Gets the files and folders in a file system drive.
+cmdline,0,T1059,.001,%,%Invoke-Command%,Runs commands on local and remote computers.
+cmdline,0,T1059,.001,%,%Import-Module%,Adds modules to the current session.
+cmdline,0,T1059,.001,%,%Export-Csv%,Converts objects into a series of comma-separated (CSV) strings and saves the strings in a CSV file.
+cmdline,0,T1059,.001,%,%Write-Host%,Writes customized output to a host.
+cmdline,0,T1059,.001,%,%Get-WmiObject%,Gets instances of WMI classes or information about the available classes.
+cmdline,0,T1059,.001,%,%Get-Content%,Gets the contents of a file.
+cmdline,0,T1059,.001,%,%Get-Date%,Gets the current date and time.
+cmdline,0,T1059,.001,%,%Invoke-WebRequest%,Gets content from a web page on the Internet.
+cmdline,0,T1059,.001,%,%Start-Process%,Starts one or more processes on the local computer.
+cmdline,0,T1059,.001,%,%Copy-Item%,Copies an item from one location to another.
+cmdline,0,T1059,.001,%,%Set-ExecutionPolicy%,Changes the user preference for the Windows PowerShell execution policy.
+cmdline,0,T1059,.001,%,%Out-File%,Sends output to a file.
+cmdline,0,T1059,.001,%,%Where-Object%,Selects objects from a collection based on their property values.
+cmdline,0,T1059,.001,%,%Import-Csv%,Creates table-like custom objects from the items in a CSV file.
+cmdline,0,T1059,.001,%,%Send-MailMessage%,Sends an email message.
+cmdline,0,T1059,.001,%,%New-Object%,Creates an instance of a Microsoft .NET Framework or COM object.
+cmdline,0,T1059,.001,%,%Select-String%,Finds text in strings and files.
+cmdline,0,T1059,.001,%,%Remove-Item%,Deletes files and folders.
+cmdline,0,T1059,.001,%,%Select-Object%,Selects objects or object properties.
+cmdline,0,T1059,.001,%,%Test-Path%,Determines whether all elements of a file or directory path exist.
+cmdline,0,T1059,.001,%,%Invoke-RestMethod%,Sends an HTTP or HTTPS request to a RESTful web service.
+cmdline,0,T1059,.001,%,%Install-Package%,Installs one or more software packages.
+cmdline,0,T1059,.001,%,%ForEach-Object%,Performs an operation against each item in a collection of input objects.
+cmdline,0,T1059,.001,%,%Write-Output%,"Sends the specified objects to the next command in the pipeline. If the command is the last command in thepipeline%, the objects are displayed in the console."
+cmdline,0,T1059,.001,%,%Get-Process%,Gets the processes that are running on the local computer or a remote computer.
+cmdline,0,T1059,.001,%,%Get-Service%,Gets the services on a local or remote computer.
+cmdline,0,T1059,.001,%,%Format-Table%,Formats the output as a table.
+cmdline,0,T1059,.001,%,%Test-Connection%,"Sends ICMP echo request packets (""pings"") to one or more computers."
+cmdline,0,T1059,.001,%,%New-Item%,Creates a new item.
+cmdline,0,T1059,.001,%,%Get-EventLog%,"Gets the events in an event log%, or a list of the event logs%, on the local or remote computers."
+cmdline,0,T1059,.001,%,%Get-WinEvent%,Gets events from event logs and event tracing log files on local and remote computers.
+cmdline,0,T1059,.001,%,%Install-Module%,"Downloads one or more modules from an online gallery%, and installs them on the local computer."
+cmdline,0,T1059,.001,%,%Enter-PSSession%,Starts an interactive session with a remote computer.
+cmdline,0,T1059,.001,%,%Get-Credential%,Gets a credential object based on a user name and password.
+cmdline,0,T1059,.001,%,%Read-Host%,Reads a line of input from the console.
+cmdline,0,T1059,.001,%,%Get-AppxPackage%,Gets a list of the app packages that are installed in a user profile.
+cmdline,0,T1059,.001,%,%Get-Acl%,"Gets the security descriptor for a resource%, such as a file or registry key."
+cmdline,0,T1059,.001,%,%Get-Help%,Displays information about Windows PowerShell commands and concepts.
+cmdline,0,T1059,.001,%,%Start-Job%,Starts a Windows PowerShell background job.
+cmdline,0,T1059,.001,%,%Add-PSSnapin%,Adds one or more Windows PowerShell snap-ins to the current session.
+cmdline,0,T1059,.001,%,%New-PSSession%,Creates a persistent connection to a local or remote computer.
+cmdline,0,T1059,.001,%,%Invoke-Expression%,Runs commands or expressions on the local computer.
+cmdline,0,T1059,.001,%,%Add-Content%,"Appends content%, such as words or data%, to a file."
+cmdline,0,T1059,.001,%,%New-PSDrive%,Creates temporary and persistent mapped network drives.
+cmdline,0,T1059,.001,%,%Move-Item%,Moves an item from one location to another.
+cmdline,0,T1059,.001,%,%Get-Item%,Gets files and folders.
+cmdline,0,T1059,.001,%,%Compare-Object%,Compares two sets of objects.
+cmdline,0,T1059,.001,%,%Sort-Object%,Sorts objects by property values.
+cmdline,0,T1059,.001,%,%Test-NetConnection%,Displays diagnostic information for a connection.
+cmdline,0,T1059,.001,%,%Set-Acl%,"Changes the security descriptor of a specified item%, such as a file or a registry key."
+cmdline,0,T1059,.001,%,%Set-Content%,Replaces the contents of a file with contents that you specify.
+cmdline,0,T1059,.001,%,%Start-Transcript%,Creates a record of all or part of a Windows PowerShell session to a text file.
+cmdline,0,T1059,.001,%,%Get-HotFix%,Gets the hotfixes that have been applied to the local and remote computers.
+cmdline,0,T1059,.001,%,%Get-ItemProperty%,Gets the properties of a specified item.
+cmdline,0,T1059,.001,%,%Add-Member%,Adds custom properties and methods to an instance of a Windows PowerShell object.
+cmdline,0,T1059,.001,%,%Remove-AppxPackage%,Removes an app package from a user account.
+cmdline,0,T1059,.001,%,%Rename-Item%,Renames an item in a Windows PowerShell provider namespace.
+cmdline,0,T1059,.001,%,%Add-Type%,Adds a.NET Framework type (a class) to a Windows PowerShell session.
+cmdline,0,T1059,.001,%,%Get-Member%,Gets the properties and methods of objects.
+cmdline,0,T1059,.001,%,%ConvertTo-SecureString%,Converts encrypted standard strings to secure strings. It can also convert plain text to secure strings. It isused with ConvertFrom-SecureString and Read-Host.
+cmdline,0,T1059,.001,%,%New-SelfSignedCertificate%,Creates a new self-signed certificate for testing purposes.
+cmdline,0,T1059,.001,%,%Start-Sleep%,Suspends the activity in a script or session for the specified period of time.
+cmdline,0,T1059,.001,%,%Restart-Computer%,"Restarts (""reboots"") the operating system on local and remote computers."
+cmdline,0,T1059,.001,%,%Out-GridView%,Sends output to an interactive table in a separate window.
+cmdline,0,T1059,.001,%,%Format-List%,Formats the output as a list of properties in which each property appears on a new line.
+cmdline,0,T1059,.001,%,%Set-ItemProperty%,Creates or changes the value of a property of an item.
+cmdline,0,T1059,.001,%,%Measure-Object%,"Calculates the numeric properties of objects%, and the characters%, words%, and lines in string objects%, such asfiles of text."
+cmdline,0,T1059,.001,%,%Split-Path%,Returns the specified part of a path.
+cmdline,0,T1059,.001,%,%Get-Counter%,Gets performance counter data from local and remote computers.
+cmdline,0,T1059,.001,%,%Get-CimInstance%,Gets the CIM instances of a class from a CIM server.
+cmdline,0,T1059,.001,%,%Add-Computer%,Add the local computer to a domain or workgroup.
+cmdline,0,T1059,.001,%,%Add-AppxPackage%,Adds a signed app package to a user account.
+cmdline,0,T1059,.001,%,%ConvertTo-Html%,Converts Microsoft .NET Framework objects into HTML that can be displayed in a Web browser.
+cmdline,0,T1059,.001,%,%Import-StartLayout%,Imports the layout of the Start into a mounted Windows image.
+cmdline,0,T1059,.001,%,%Set-Location%,Sets the current working location to a specified location.
+cmdline,0,T1059,.001,%,%Get-NetAdapter%,Gets the basic network adapter properties.
+cmdline,0,T1059,.001,%,%Export-StartLayout%,Exports the layout of the Start screen.
+cmdline,0,T1059,.001,%,%Enable-PSRemoting%,Configures the computer to receive remote commands.
+cmdline,0,T1059,.001,%,%Get-Command%,Gets all commands.
+cmdline,0,T1059,.001,%,%Get-ExecutionPolicy%,Gets the execution policies for the current session.
+cmdline,0,T1059,.001,%,%Join-Path%,Combines a path and a child path into a single path.
+cmdline,0,T1059,.001,%,%Import-PSSession%,Imports commands from another session into the current session.
+cmdline,0,T1059,.001,%,%Get-FileHash%,Computes the hash value for a file by using a specified hash algorithm.
+cmdline,0,T1059,.001,%,%Write-Error%,Writes an object to the error stream.
+cmdline,0,T1059,.001,%,%Stop-Service%,Stops one or more running services.
+cmdline,0,T1059,.001,%,%Stop-Process%,Stops one or more running processes.
+cmdline,0,T1059,.001,%,%Start-Service%,Starts one or more stopped services.
+cmdline,0,T1059,.001,%,%Unblock-File%,Unblocks files that were downloaded from the Internet.
+cmdline,0,T1059,.001,%,%Get-Disk%,Gets one or more disks visible to the operating system.
+cmdline,0,T1059,.001,%,%Get-Module%,Gets the modules that have been imported or that can be imported into the current session.
+cmdline,0,T1059,.001,%,%ConvertTo-Json%,Converts an object to a JSON-formatted string.
+cmdline,0,T1059,.001,%,%New-WebServiceProxy%,Creates a Web service proxy object that lets you use and manage the Web service in Windows PowerShell.
+cmdline,0,T1059,.001,%,%Reset-ComputerMachinePassword%,Resets the machine account password for the computer.
+cmdline,0,T1059,.001,%,%Get-ScheduledTask%,Gets the task definition object of a scheduled task that is registered on the local computer.
+cmdline,0,T1059,.001,%,%Write-EventLog%,Writes an event to an event log.
+cmdline,0,T1059,.001,%,%Set-Service%,"Starts%, stops%, and suspends a service%, and changes its properties."
+cmdline,0,T1059,.001,%,%Out-String%,Sends objects to the host as a series of strings.
+cmdline,0,T1059,.001,%,%Get-Printer%,Retrieves a list of printers installed on a computer.
+cmdline,0,T1059,.001,%,%Out-Null%,Deletes output instead of sending it down the pipeline.
+cmdline,0,T1059,.001,%,%Resolve-DnsName%,undefined
+cmdline,0,T1059,.001,%,%Get-WindowsUpdateLog%,Merges Windows Update .etl files into a single log file.
+cmdline,0,T1059,.001,%,%Restart-Service%,Stops and then starts one or more services.
+cmdline,0,T1059,.001,%,%Set-Variable%,Sets the value of a variable. Creates the variable if one with the requested name does not exist.
+cmdline,0,T1059,.001,%,%Compress-Archive%,"Creates an archive%, or zipped file%, from specified files and folders."
+cmdline,0,T1059,.001,%,%ConvertFrom-Json%,Converts a JSON-formatted string to a custom object.
+cmdline,0,T1059,.001,%,%New-SmbShare%,Creates an SMB share.
+cmdline,0,T1059,.001,%,%Set-Item%,Changes the value of an item to the value specified in the command.
+cmdline,0,T1059,.001,%,%Update-Help%,Downloads and installs the newest help files on your computer.
+cmdline,0,T1059,.001,%,%Group-Object%,Groups objects that contain the same value for specified properties.
+cmdline,0,T1059,.001,%,%Start-BitsTransfer%,Creates a BITS transfer job.
+cmdline,0,T1059,.001,%,%Get-Certificate%,Submits a certificate request to an enrollment server and installs the response or retrieves a certificate for apreviously submitted request.
+cmdline,0,T1059,.001,%,%Register-ScheduledTask%,Registers a scheduled task definition on a local computer.
+cmdline,0,T1059,.001,%,%Tee-Object%,Saves command output in a file or variable and also sends it down the pipeline.
+cmdline,0,T1059,.001,%,%Test-ComputerSecureChannel%,Tests and repairs the secure channel between the local computer and its domain.
+cmdline,0,T1059,.001,%,%Measure-Command%,Measures the time it takes to run script blocks and cmdlets.
+cmdline,0,T1059,.001,%,%ConvertFrom-SecureString%,Converts a secure string to an encrypted standard string.
+cmdline,0,T1059,.001,%,%Get-Job%,Gets Windows PowerShell background jobs that are running in the current session.
+cmdline,0,T1059,.001,%,%Export-Clixml%,Creates an XML-based representation of an object or objects and stores it in a file.
+cmdline,0,T1059,.001,%,%ConvertTo-Csv%,Converts objects into a series of comma-separated value (CSV) variable-length strings.
+cmdline,0,T1059,.001,%,%Remove-AppxProvisionedPackage%,Removes an app package (.appx) from a Windows image.
+cmdline,0,T1059,.001,%,%New-ItemProperty%,Creates a new property for an item and sets its value.
+cmdline,0,T1059,.001,%,%Get-PhysicalDisk%,"Gets a list of all PhysicalDisk objects visible across any available Storage Management Providers%, or optionally afiltered list."
+cmdline,0,T1059,.001,%,%Set-TimeZone%,Sets the system time zone to a specified time zone.
+cmdline,0,T1059,.001,%,%Get-Package%,Returns a list of all software packages that have been installed by using Package Management.
+cmdline,0,T1059,.001,%,%Get-SmbShare%,Retrieves the SMB shares on the computer.
+cmdline,0,T1059,.001,%,%Get-Variable%,Gets the variables in the current console.
+cmdline,0,T1059,.001,%,%Add-Printer%,Adds a printer to the specified computer.
+cmdline,0,T1059,.001,%,%Resolve-Path%,"Resolves the wildcard characters in a path%, and displays the path contents."
+cmdline,0,T1059,.001,%,%Select-Xml%,Finds text in an XML string or document.
+cmdline,0,T1059,.001,%,%Get-Random%,"Gets a random number%, or selects objects randomly from a collection."
+cmdline,0,T1059,.001,%,%Get-PSDrive%,Gets drives in the current session.
+cmdline,0,T1059,.001,%,%Expand-Archive%,Extracts files from a specified archive (zipped) file.
+cmdline,0,T1059,.001,%,%Receive-Job%,Gets the results of the Windows PowerShell background jobs in the current session.
+cmdline,0,T1059,.001,%,%New-NetFirewallRule%,Creates a new inbound or outbound firewall rule and adds the rule to the target computer.
+cmdline,0,T1059,.001,%,%New-NetIPAddress%,Creates and configures an IP address.
+cmdline,0,T1059,.001,%,%Get-NetIPAddress%,Gets the IP address configuration.
+cmdline,0,T1059,.001,%,%Register-ObjectEvent%,Subscribes to the events that are generated by a Microsoft .NET Framework object.
+cmdline,0,T1059,.001,%,%Get-SmbConnection%,Retrieves the connections established from the SMB client to the SMB servers.
+cmdline,0,T1059,.001,%,%New-TimeSpan%,Creates a TimeSpan object.
+cmdline,0,T1059,.001,%,%Enable-WindowsOptionalFeature%,Enables a feature in a Windows image.
+cmdline,0,T1059,.001,%,%Set-NetConnectionProfile%,Changes the network category of a connection profile.
+cmdline,0,T1059,.001,%,%New-ScheduledTaskTrigger%,Creates a scheduled task trigger object.
+cmdline,0,T1059,.001,%,%Rename-Computer%,Renames a computer.
+cmdline,0,T1059,.001,%,%Get-Event%,Gets the events in the event queue.
+cmdline,0,T1059,.001,%,%Test-WSMan%,Tests whether the WinRM service is running on a local or remote computer.
+cmdline,0,T1059,.001,%,%Get-AppxProvisionedPackage%,Gets information about app packages (.appx) in an image that will be installed for each new user.
+cmdline,0,T1059,.001,%,%Wait-Process%,Waits for the processes to be stopped before accepting more input.
+cmdline,0,T1059,.001,%,%Wait-Job%,Suppresses the command prompt until one or all of the Windows PowerShell background jobs running in the sessionare completed.
+cmdline,0,T1059,.001,%,%Write-Debug%,Writes a debug message to the console.
+cmdline,0,T1059,.001,%,%Import-Certificate%,Imports one or more certificates into a certificate store.
+cmdline,0,T1059,.001,%,%New-EventLog%,Creates a new event log and a new event source on a local or remote computer.
+cmdline,0,T1059,.001,%,%Get-Host%,Gets an object that represents the current host program.
+cmdline,0,T1059,.001,%,%Invoke-WmiMethod%,Calls WMI methods.
+cmdline,0,T1059,.001,%,%Update-Script%,Updates a script.
+cmdline,0,T1059,.001,%,%New-Service%,Creates a new Windows service.
+cmdline,0,T1059,.001,%,%ConvertFrom-Csv%,Converts object properties in comma-separated value (CSV) format into CSV versions of the original objects.
+cmdline,0,T1059,.001,%,%Invoke-Item%,Performs the default action on the specified item.
+cmdline,0,T1059,.001,%,%Enable-WSManCredSSP%,Enables CredSSP authentication on a computer.
+cmdline,0,T1059,.001,%,%Get-Unique%,Returns unique items from a sorted list.
+cmdline,0,T1059,.001,%,%Find-Package%,Finds software packages in available package sources.
+cmdline,0,T1059,.001,%,%Out-Host%,Sends output to the command line.
+cmdline,0,T1059,.001,%,%Format-Volume%,Formats one or more existing volumes or a new volume on an existing partition.
+cmdline,0,T1059,.001,%,%Format-Custom%,Uses a customized view to format the output.
+cmdline,0,T1059,.001,%,%Get-SmbServerConfiguration%,Retrieves the SMB server configuration.
+cmdline,0,T1059,.001,%,%Mount-DiskImage%,"Mounts a previously created disk image (virtual hard disk or ISO)%, making it appear as a normal disk."
+cmdline,0,T1059,.001,%,%Clear-Host%,Clears the display in the host program.
+cmdline,0,T1059,.001,%,%Start-DscConfiguration%,Applies configuration to nodes.
+cmdline,0,T1059,.001,%,%Get-SmbOpenFile%,Retrieves basic information about the files that are open on behalf of the clients of the SMB server.
+cmdline,0,T1059,.001,%,%Add-VpnConnection%,Adds a VPN connection to the Connection Manager phone book.
+cmdline,0,T1059,.001,%,%Set-DnsClientServerAddress%,Sets DNS server addresses associated with the TCP/IP properties on an interface.
+cmdline,0,T1059,.001,%,%Export-ModuleMember%,Specifies the module members that are exported.
+cmdline,0,T1059,.001,%,%Get-PSSession%,Gets the Windows PowerShell sessions on local and remote computers.
+cmdline,0,T1059,.001,%,%Get-PSSnapin%,Gets the Windows PowerShell snap-ins on the computer.
+cmdline,0,T1059,.001,%,%Get-NetConnectionProfile%,Gets a connection profile.
+cmdline,0,T1059,.001,%,%Get-NetFirewallRule%,Retrieves firewall rules from the target computer.
+cmdline,0,T1059,.001,%,%Push-Location%,Adds the current location to the top of a location stack.
+cmdline,0,T1059,.001,%,%Get-Volume%,"Gets the specified Volume object%, or all Volume objects if no filter is provided."
+cmdline,0,T1059,.001,%,%New-NetLbfoTeam%,Creates a new NIC team.
+cmdline,0,T1059,.001,%,%Get-NetTCPConnection%,Gets TCP connections.
+cmdline,0,T1059,.001,%,%Stop-Computer%,Stops (shuts down) local and remote computers.
+cmdline,0,T1059,.001,%,%Set-StrictMode%,"Establishes and enforces coding rules in expressions%, scripts%, and script blocks."
+cmdline,0,T1059,.001,%,%Set-NetFirewallRule%,Modifies existing firewall rules.
+cmdline,0,T1059,.001,%,%Add-AppxProvisionedPackage%,Adds an app package (.appx) that will install for each new user to a Windows image.
+cmdline,0,T1059,.001,%,%Enable-BitLocker%,Enables encryption for a BitLocker volume.
+cmdline,0,T1059,.001,%,%Get-Location%,Gets information about the current working location or a location stack.
+cmdline,0,T1059,.001,%,%Set-NetIPInterface%,Modifies an IP interface.
+cmdline,0,T1059,.001,%,%New-VirtualDisk%,Creates a new virtual disk in the specified storage pool.
+cmdline,0,T1059,.001,%,%Remove-PSSession%,Closes one or more Windows PowerShell sessions (PSSessions).
+cmdline,0,T1059,.001,%,%Set-NetIPAddress%,Modifies the configuration of an IP address.
+cmdline,0,T1059,.001,%,%Register-ScheduledJob%,Creates a scheduled job.
+cmdline,0,T1059,.001,%,%Set-SmbServerConfiguration%,Sets the SMB Service configuration.
+cmdline,0,T1059,.001,%,%New-Partition%,Creates a new partition on an existing Disk object.
+cmdline,0,T1059,.001,%,%Remove-PSDrive%,Deletes temporary Windows PowerShell drives and disconnects mapped network drives.
+cmdline,0,T1059,.001,%,%Remove-Variable%,Deletes a variable and its value.
+cmdline,0,T1059,.001,%,%Get-WindowsOptionalFeature%,Gets information about optional features in a Windows image.
+cmdline,0,T1059,.001,%,%Import-Clixml%,Imports a CLIXML file and creates corresponding objects in Windows PowerShell.
+cmdline,0,T1059,.001,%,%Import-PfxCertificate%,Imports certificates and private keys from a Personal Information Exchange (PFX) file to the destination store.
+cmdline,0,T1059,.001,%,%Uninstall-Package%,Uninstalls one or more software packages.
+cmdline,0,T1059,.001,%,%Set-AuthenticodeSignature%,Adds an Authenticode signature to a Windows PowerShell script or other file.
+cmdline,0,T1059,.001,%,%Set-NetAdapter%,Sets the basic network adapter properties.
+cmdline,0,T1059,.001,%,%Set-Alias%,Creates or changes an alias for a cmdlet or other command element in the current Windows PowerShell session.
+cmdline,0,T1059,.001,%,%Set-WmiInstance%,Creates or updates an instance of an existing Windows Management Instrumentation (WMI) class.
+cmdline,0,T1059,.001,%,%Disable-WindowsOptionalFeature%,Disables a feature in a Windows image.
+cmdline,0,T1059,.001,%,%Update-Module%,Downloads and installs the newest version of specified modules from an online gallery to the local computer.
+cmdline,0,T1059,.001,%,%New-LocalUser%,Creates a local user account.
+cmdline,0,T1059,.001,%,%Mount-WindowsImage%,Mounts a Windows image in a WIM or VHD file to a directory on the local computer.
+cmdline,0,T1059,.001,%,%Get-ItemPropertyValue%,Gets the value for one or more properties of a specified item.
+cmdline,0,T1059,.001,%,%New-Alias%,Creates a new alias.
+cmdline,0,T1059,.001,%,%New-JobTrigger%,Creates a job trigger for a scheduled job.
+cmdline,0,T1059,.001,%,%Get-History%,Gets a list of the commands entered during the current session.
+cmdline,0,T1059,.001,%,%New-CimSession%,Creates a CIM session.
+cmdline,0,T1059,.001,%,%Get-LocalGroup%,Gets the local security groups.
+cmdline,0,T1059,.001,%,%ConvertTo-Xml%,Creates an XML-based representation of an object.
+cmdline,0,T1059,.001,%,%New-PSSessionOption%,Creates an object that contains advanced options for a PSSession.
+cmdline,0,T1059,.001,%,%Add-WindowsCapability%,Installs a Windows capability package on the specified operating system image.
+cmdline,0,T1059,.001,%,%New-Variable%,Creates a new variable.
+cmdline,0,T1059,.001,%,%Convert-Path%,Converts a path from a Windows PowerShell path to a Windows PowerShell provider path.
+cmdline,0,T1059,.001,%,%Get-LocalGroupMember%,Gets members from a local group.
+cmdline,0,T1059,.001,%,%Add-WindowsPackage%,Adds a single .cab or .msu file to a Windows image.
+cmdline,0,T1059,.001,%,%Invoke-CimMethod%,Invokes a method of a CIM class.
+cmdline,0,T1059,.001,%,%ConvertFrom-String%,Extracts and parses structured properties from string content.
+cmdline,0,T1059,.001,%,%Export-Certificate%,Exports a certificate from a certificate store into a file.
+cmdline,0,T1059,.001,%,%Unregister-ScheduledTask%,Unregisters a scheduled task.
+cmdline,0,T1059,.001,%,%ConvertFrom-StringData%,Converts a string containing one or more key and value pairs to a hash table.
+cmdline,0,T1059,.001,%,%Install-PackageProvider%,Installs one or more Package Management package providers.
+cmdline,0,T1059,.001,%,%Get-LocalUser%,Gets local user accounts.
+cmdline,0,T1059,.001,%,%Clear-Content%,"Deletes the contents of an item%, but does not delete the item."
+cmdline,0,T1059,.001,%,%Remove-Module%,Removes modules from the current session.
+cmdline,0,T1059,.001,%,%Get-VpnConnection%,Retrieves the specified VPN connection profile information.
+cmdline,0,T1059,.001,%,%Export-PfxCertificate%,Exports a certificate or a PFXData object to a Personal Information Exchange (PFX) file.
+cmdline,0,T1059,.001,%,%Get-NetIPConfiguration%,Gets IP network configuration.
+cmdline,0,T1059,.001,%,%Export-WindowsDriver%,Exports all third-party drivers from a Windows image to a destination folder.
+cmdline,0,T1059,.001,%,%Grant-SmbShareAccess%,Adds an allow ACE for a trustee to the security descriptor of the SMB share.
+cmdline,0,T1059,.001,%,%Initialize-Disk%,"Initializes a RAW disk for first time use%, enabling the disk to be formatted and used to store data."
+cmdline,0,T1059,.001,%,%Get-NetIPInterface%,Gets an IP interface.
+cmdline,0,T1059,.001,%,%Get-PfxCertificate%,Gets information about .pfx certificate files on the computer.
+cmdline,0,T1059,.001,%,%Invoke-Pester%,Invokes Pester to run all tests (files containing *.Tests.ps1) recursively under the Path
+cmdline,0,T1059,.001,%,%Add-OdbcDsn%,Adds an ODBC DSN.
+cmdline,0,T1059,.001,%,%Format-Wide%,Formats objects as a wide table that displays only one property of each object.
+cmdline,0,T1059,.001,%,%Get-Partition%,"Returns a list of all partition objects visible on all disks%, or optionally a filtered list using specifiedparameters."
+cmdline,0,T1059,.001,%,%Set-Disk%,"Takes a Disk object or unique disk identifiers and a set of attributes%, and updates the physical disk on thesystem."
+cmdline,0,T1059,.001,%,%Get-ScheduledJob%,Gets scheduled jobs on the local computer.
+cmdline,0,T1059,.001,%,%Get-PnpDevice%,Returns information about PnP devices.
+cmdline,0,T1059,.001,%,%Get-Tpm%,Gets an object that contains information about a TPM.
+cmdline,0,T1059,.001,%,%Disable-NetAdapterBinding%,Disables a binding to a network adapter.
+cmdline,0,T1059,.001,%,%Get-PSRepository%,Gets PowerShell repositories.
+cmdline,0,T1059,.001,%,%Out-Default%,Sends the output to the default formatter and to the default output cmdlet.
+cmdline,0,T1059,.001,%,%Add-PrinterDriver%,Installs a printer driver on the specified computer.
+cmdline,0,T1059,.001,%,%Set-WinUserLanguageList%,Sets the language list and associated properties for the current user account.
+cmdline,0,T1059,.001,%,%Get-ScheduledTaskInfo%,Gets run-time information for a scheduled task.
+cmdline,0,T1059,.001,%,%Enable-NetFirewallRule%,Enables a previously disabled firewall rule.
+cmdline,0,T1059,.001,%,%Out-Printer%,Sends output to a printer.
+cmdline,0,T1059,.001,%,%Add-PrinterPort%,Installs a printer port on the specified computer.
+cmdline,0,T1059,.001,%,%Set-WinSystemLocale%,Sets the system locale (the language for non-Unicode programs) for the current computer.
+cmdline,0,T1059,.001,%,%Find-Module%,Finds modules from an online gallery that match specified criteria.
+cmdline,0,T1059,.001,%,%Get-NetAdapterVmq%,Gets the VMQ properties of a network adapter.
+cmdline,0,T1059,.001,%,%Stop-Transcript%,Stops a transcript.
+cmdline,0,T1059,.001,%,%Get-SmbSession%,Retrieves information about the SMB sessions that are currently established between the SMB server and theassociated clients.
+cmdline,0,T1059,.001,%,%Set-PSSessionConfiguration%,Changes the properties of a registered session configuration.
+cmdline,0,T1059,.001,%,%Add-MpPreference%,Modifies settings for Windows Defender.
+cmdline,0,T1059,.001,%,%Set-SmbShare%,Modifies the properties of the SMB share.
+cmdline,0,T1059,.001,%,%Set-VpnConnection%,Changes the configuration settings of an existing VPN connection profile.
+cmdline,0,T1059,.001,%,%Start-ScheduledTask%,Starts one or more instances of a scheduled task.
+cmdline,0,T1059,.001,%,%Suspend-BitLocker%,Suspends Bitlocker encryption for the specified volume.
+cmdline,0,T1059,.001,%,%Get-SmbShareAccess%,Retrieves the ACL of the SMB share.
+cmdline,0,T1059,.001,%,%Set-PSDebug%,"Turns script debugging features on and off%, sets the trace level%, and toggles strict mode."
+cmdline,0,T1059,.001,%,%Get-StartApps%,Gets the names and AppIDs of installed apps.
+cmdline,0,T1059,.001,%,%Add-VpnConnectionRoute%,Adds a route to a VPN connection.
+cmdline,0,T1059,.001,%,%Get-VirtualDisk%,"Returns a list of VirtualDisk objects%, across all storage pools%, across all providers%, or optionally a filteredsubset based on provided criteria."
+cmdline,0,T1059,.001,%,%Write-Information%,Specifies how Windows PowerShell handles information stream data for a command.
+cmdline,0,T1059,.001,%,%New-ScheduledTask%,Creates a scheduled task instance.
+cmdline,0,T1059,.001,%,%Set-Culture%,Sets the user culture for the current user account.
+cmdline,0,T1059,.001,%,%New-ScheduledTaskSettingsSet%,Creates a new scheduled task settings object.
+cmdline,0,T1059,.001,%,%New-ScheduledTaskAction%,Creates a scheduled task action.
+cmdline,0,T1059,.001,%,%Set-Partition%,"Sets attributes of a partition%, such as active%, read-only%, and offline states."
+cmdline,0,T1059,.001,%,%Clear-Variable%,Deletes the value of a variable.
+cmdline,0,T1059,.001,%,%Add-KdsRootKey%,Generates a new root key for the Microsoft Group KdsSvc within Active Directory.
+cmdline,0,T1059,.001,%,%Exit-PSSession%,Ends an interactive session with a remote computer.
+cmdline,0,T1059,.001,%,%Add-LocalGroupMember%,Adds members to a local group.
+cmdline,0,T1059,.001,%,%Set-LocalUser%,Modifies a local user account.
+cmdline,0,T1059,.001,%,%Remove-Computer%,Removes the local computer from its domain.
+cmdline,0,T1059,.001,%,%New-NetNat%,Creates a NAT object.
+cmdline,0,T1059,.001,%,%Set-SmbClientConfiguration%,Sets the SMB client configuration.
+cmdline,0,T1059,.001,%,%Set-ScheduledTask%,Modifies a scheduled task.
+cmdline,0,T1059,.001,%,%Remove-ItemProperty%,Deletes the property and its value from an item.
+cmdline,0,T1059,.001,%,%Set-Printer%,Updates the configuration of an existing printer.
+cmdline,0,T1059,.001,%,%Set-PhysicalDisk%,Sets attributes on a specific physical disk.
+cmdline,0,T1059,.001,%,%Set-Date%,Changes the system time on the computer to a time that you specify.
+cmdline,0,T1059,.001,%,%Repair-WindowsImage%,Repairs a Windows image in a WIM or VHD file.
+cmdline,0,T1059,.001,%,%Set-NetAdapterVmq%,Sets the VMQ properties of a network adapter.
+cmdline,0,T1059,.001,%,%Remove-WmiObject%,Deletes an instance of an existing Windows Management Instrumentation (WMI) class.
+cmdline,0,T1059,.001,%,%New-NetRoute%,Creates a route in the IP routing table.
+cmdline,0,T1059,.001,%,%Optimize-Volume%,Optimizes a volume.
+cmdline,0,T1059,.001,%,%New-Volume%,Creates a volume with the specified file system.
+cmdline,0,T1059,.001,%,%New-StoragePool%,Creates a new storage pool using a group of physical disks.
+cmdline,0,T1059,.001,%,%New-SmbMapping%,Creates an SMB mapping.
+cmdline,0,T1059,.001,%,%Set-DscLocalConfigurationManager%,Applies LCM settings to nodes.
+cmdline,0,T1059,.001,%,%New-ScheduledTaskPrincipal%,Creates an object that contains a scheduled task principal.
+cmdline,0,T1059,.001,%,%Get-Culture%,Gets the current culture set in the operating system.
+cmdline,0,T1059,.001,%,%Set-PSRepository%,Sets values for a registered repository.
+cmdline,0,T1059,.001,%,%Set-NetFirewallProfile%,Configures settings that apply to the per-profile configurations of the Windows Firewall with Advanced Security.
+cmdline,0,T1059,.001,%,%Get-Alias%,Gets the aliases for the current session.
+cmdline,0,T1059,.001,%,%Get-DnsClientServerAddress%,Gets DNS server IP addresses from the TCP/IP properties on an interface.
+cmdline,0,T1059,.001,%,%Set-MpPreference%,Configures preferences for Windows Defender scans and updates.
+cmdline,0,T1059,.001,%,%Save-Module%,Saves a module locally without installing it.
+cmdline,0,T1059,.001,%,%Resize-Partition%,Resizes a partition and the underlying file system.
+cmdline,0,T1059,.001,%,%Repair-Volume%,Performs repairs on a volume.
+cmdline,0,T1059,.001,%,%Remove-Printer%,Removes a printer from the specified computer.
+cmdline,0,T1059,.001,%,%Remove-PhysicalDisk%,Removes a physical disk from a specified storage pool.
+cmdline,0,T1059,.001,%,%Remove-NetIPAddress%,Removes an IP address and its configuration.
+cmdline,0,T1059,.001,%,%Register-PSRepository%,Registers a PowerShell repository.
+cmdline,0,T1059,.001,%,%Get-WindowsCapability%,Gets Windows capabilities for an image or a running operating system.
+cmdline,0,T1059,.001,%,%Get-BitLockerVolume%,Gets information about volumes that BitLocker can protect.
+cmdline,0,T1059,.001,%,%Get-Clipboard%,Gets the current Windows clipboard entry.
+cmdline,0,T1059,.001,%,%Get-ComputerInfo%,Gets a consolidated object of system and operating system properties.
+cmdline,0,T1059,.001,%,%Get-InitiatorPort%,Gets one or more host bus adapter (HBA) initiator ports.
+cmdline,0,T1059,.001,%,%Get-BitsTransfer%,Gets the associated BitsJob object for an existing BITS transfer job.
+cmdline,0,T1059,.001,%,%Get-AuthenticodeSignature%,Gets information about the Authenticode signature for a file.
+cmdline,0,T1059,.001,%,%Get-AppvClientPackage%,Returns App-V Client Packages.
+cmdline,0,T1059,.001,%,%Set-WSManQuickConfig%,Configures the local computer for remote management.
+cmdline,0,T1059,.001,%,%New-Guid%,Creates a GUID.
+cmdline,0,T1059,.001,%,%Get-StorageJob%,"Returns information about long-running Storage module jobs%, such as a repair task."
+cmdline,0,T1059,.001,%,%Uninstall-Module%,Uninstalls a module.
+cmdline,0,T1059,.001,%,%Get-InstalledModule%,Gets installed modules on a computer.
+cmdline,0,T1059,.001,%,%Confirm-SecureBootUEFI%,Confirms that Secure Boot is enabled by checking the Secure Boot status on the local computer.
+cmdline,0,T1059,.001,%,%Set-Clipboard%,Sets the current Windows clipboard entry.
+cmdline,0,T1059,.001,%,%Get-TlsCipherSuite%,Gets the list of cipher suites for TLS for a computer.
+cmdline,0,T1059,.001,%,%Clear-Disk%,"Cleans a disk by removing all partition information and un-initializing it%, erasing all data on the disk."
